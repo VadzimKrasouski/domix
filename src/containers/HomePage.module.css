@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block {
+width: 50%;
+}
+
+.block1 {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}
+
+.block2 {
+    width: 50%;
+    height: 50%;
+    background-color: deepskyblue;
+}
+
+.block3 {
+    width: 50%;
+    height: 50%;
+    background-color: deepskyblue;
+}
+
+.block4 {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}
