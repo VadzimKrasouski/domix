@@ -1,0 +1,11 @@
+.house {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkseagreen;
+    margin: 5px;
+}
+
