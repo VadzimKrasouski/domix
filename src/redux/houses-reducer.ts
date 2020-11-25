@@ -18,7 +18,7 @@ const initialState: Array<HouseType> = []
 export const housesReducer = (state: Array<HouseType> = initialState, action: ActionsType): Array<HouseType> => {
     switch (action.type) {
         case 'SET-ALLHOUSES': {
-            return [...state, ...action.houses]
+            return [...action.houses]
         }
         case 'REMOVE-HOUSE':
             return state.filter(h => h._id !== action.houseId)

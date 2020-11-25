@@ -17,11 +17,15 @@ function App() {
                     <Route exact path="/">
                         <HomePage/>
                     </Route>
-                    <Route exact path="/houses" render={() => <Houses/>}/>
+                    <Route exact path="/houses">
+                        <Houses/>
+                    </Route>
                     <Route path="/create">
                         <CreatePage/>
                     </Route>
-                    <Route path="/houses/:houseId?" render={() => <AboutHouse/>}/>
+                    <Route path="/houses/:houseId?">
+                        <AboutHouse/>
+                    </Route>
                 </Switch>
             </Router>
         </div>

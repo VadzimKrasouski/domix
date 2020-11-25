@@ -15,7 +15,6 @@ export const AboutHouse = React.memo(function () {
     }, )
 
     const house:HouseType = useSelector<AppRootStateType, any>(state => {
-        debugger
        return state.houses.find(h => h._id === houseId)
     })
 
